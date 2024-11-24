@@ -8,7 +8,7 @@ This project aims to create a web application using various AWS services. The ap
 
 **AWS Amplify || Amazon API Gateway || AWS Lambda || AWS DynamoDB || AWS IAM**
 
-![Project Architecture](project-architecture.png)
+![Project Architecture](images/project-architecture.png)
 
 ## Key Points
 
@@ -26,7 +26,7 @@ This project aims to create a web application using various AWS services. The ap
 2. Upload the ZIP file to the Amplify Console.
 3. Amplify processes files, builds the application, deploys it, and generates a public URL.
 
-![Amplify Setup](amplify-setup.png)
+![Amplify Setup](images/amplify-setup.png)
 
 ### Creating Lambda Functions
 
@@ -34,7 +34,7 @@ This project aims to create a web application using various AWS services. The ap
 2. Lambda processes user events, sends responses via the REST API, and stores data in DynamoDB.
 3. Configure IAM permissions for Lambda to write to DynamoDB.
 
-![Lambda Functions](lambda-functions.png)
+![Lambda Functions](images/lambda-functions.png)
 
 ### Configuring API Gateway
 
@@ -49,14 +49,14 @@ This project aims to create a web application using various AWS services. The ap
 1. Create a custom IAM role using a JSON policy to grant permissions for Lambda to interact with DynamoDB.
 2. Attach the policy to Lambda for secure access.
 
-![IAM Policy](iam-policy.png)
+![IAM Policy](images/iam-policy.png)
 
 ### Setting up DynamoDB
 
 1. Use Amazon DynamoDB to store user-input data processed by Lambda.
 2. Design the table schema for quick retrieval and seamless integration with AWS services.
 
-![DynamoDB Dashboard](dynamodb-dashboard.png)
+![DynamoDB Dashboard](images/dynamodb-dashboard.png)
 
 ## Challenges and Solutions
 
@@ -69,4 +69,4 @@ This project aims to create a web application using various AWS services. The ap
 
 The successful execution of this project demonstrates the seamless integration and functionality of AWS services. The architecture validates the effectiveness of the design and implementation, ensuring a scalable solution for user interactions and data processing.
 
-![Final User Interface](final-ui.png)
+![Final User Interface](images/final-ui.png)
