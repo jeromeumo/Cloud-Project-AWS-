@@ -10,7 +10,7 @@ This project aims to create a web application using various AWS services. The ap
 
 ![Project Architecture](project-architecture.png)
 
-##Key Points
+## Key Points
 
 - **AWS Amplify**: A development platform that simplifies building and deploying full-stack web and mobile applications. It offers seamless hosting for frontends and integrations with backend services.
 - **Amazon API Gateway**: A fully managed service for creating, deploying, and managing APIs. It acts as a bridge between the front-end and back-end, with features like caching, security, and scalability.
