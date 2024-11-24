@@ -1,4 +1,4 @@
-# Building a erverless end-to-end Web App Project using AWS services
+# Building a serverless end-to-end Web App Project using AWS services
 
 ## Project Overview
 
