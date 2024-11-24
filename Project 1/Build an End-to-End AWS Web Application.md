@@ -1,4 +1,4 @@
-# AWS Project: Architect and Build an End-to-End AWS Web Application
+# AWS Project: Architect and Build an End-to-End Web App Project
 
 ## Project Overview
 
