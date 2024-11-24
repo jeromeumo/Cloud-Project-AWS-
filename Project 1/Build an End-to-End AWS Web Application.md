@@ -42,7 +42,7 @@ This project aims to create a web application using various AWS services. The ap
 2. Use the REST API option to connect AWS Lambda functions with AWS Amplify.
 3. Configure the PUT method to handle user inputs.
 
-![API Gateway Configuration](api-gateway-config.png)
+![API Gateway Configuration](images/api-gateway-config.png)
 
 ### Configuring IAM Roles and Policies
 
