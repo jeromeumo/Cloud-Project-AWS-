@@ -99,7 +99,7 @@ This service enables secure control of access to AWS resources through user role
 7. Click **Next** to review.
 8. Provide a role name.
 
-[IAM Role Creation](img/iiam-setup3.png)
+![IAM Role Creation](img/iam-setup3.png)
 
 9. Click **Create Role**.
 
@@ -111,8 +111,7 @@ This service makes it easy to deploy and manage applications without worrying ab
 
 This setup allows the backend to connect seamlessly with the frontend (hosted on S3 with CloudFront) and the database (DynamoDB), making the entire application functional and scalable.
 
-**Fig 4. Elastic Beanstalk Deployment**  
-![Elastic Beanstalk Deployment](path/to/your/elastic-beanstalk-image.jpg)
+![Elastic Beanstalk Deployment](img/elastic-beanstalk-setup1.png)
 
 #### Steps:
 
