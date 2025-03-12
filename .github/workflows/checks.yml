@@ -1,3 +1,4 @@
+---
 name: Checks
 
 on:
@@ -8,6 +9,7 @@ jobs:
   test-lint:
     name: Test and lint
     uses: ./.github/workflows/test-and-lint.yml
-    secrets:
-      DOCKERHUB_USER: ${{ vars.DOCKERHUB_USER }}
-      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+    with:
+      secrets:
+        DOCKERHUB_USER: ${{ vars.DOCKERHUB_USER }}
+        DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
